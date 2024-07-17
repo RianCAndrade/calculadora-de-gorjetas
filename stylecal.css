@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+
+:root{
+    --corprimaria: lightcoral;
+    --corsecundaria: dimgrey;
+    --corterciaria: gainsboro;
+}
+body{
+    background-color: var(--corprimaria);
+    font-size: 15px;
+    font-family: lato, sans-serif;
+}
+
+#container{
+    height: 580px;
+    width: 368px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    box-shadow: 5px 5px 5px var(--corsecundaria);
+    border-radius: 20px;
+}
+
+.titulo{
+    background-color: var(--corterciaria);
+    color: var(--corsecundaria);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
+
+.tipoform{
+    padding: 15px;
+}
+.tipoinput{
+    background-color: rgb(250, 247, 243);
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.tipoinput:focus{
+    border: 3px solid var(--corprimaria);
+    outline: none;
+}
+.tiposelect{
+    width: 188px;
+    padding: 5px;
+    font-size: 12px;
+}
+.tipobutao{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 38px auto;
+    background: var(--corprimaria);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size : 17px;
+}
+
+#resp{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
